@@ -1,0 +1,7 @@
+* text=auto eol=lf
+erdos97_mathlib/** -text
+auxiliary/** -text
+paper/source/** -text
+BUILD_PLAN.json -text
+SOURCE_MANIFEST.json -text
+*.pdf binary

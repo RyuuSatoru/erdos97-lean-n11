@@ -1,0 +1,5 @@
+'T34Closed.all_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'T34Closed.no_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'T34Closed.erdos97_n11_strict_ccw' depends on axioms: [propext, Classical.choice, Quot.sound]
+T34Closed.erdos97_n11_strict_ccw (P : Fin 11 → E97BlockB.XY) (hccw : E97A1Index.StrictCCW11 P) :
+  ∃ c < 11, ∀ (w : Finset ℕ), w.card = 4 → w ⊆ Finset.range 11 → c ∉ w → ¬E97A3.SelectedRowEq P c w

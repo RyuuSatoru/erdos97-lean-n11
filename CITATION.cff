@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the archived preprint and research artifacts."
+title: "An End-to-End Lean Verification of the Eleven-Vertex Case of Erdős Problem 97"
+type: software
+authors:
+  - family-names: Nguyen
+    given-names: Dang Khoa
+    orcid: "https://orcid.org/0009-0005-3242-0098"
+preferred-citation:
+  type: report
+  title: "An End-to-End Lean Verification of the Eleven-Vertex Case of Erdős Problem 97"
+  authors:
+    - family-names: Nguyen
+      given-names: Dang Khoa
+      orcid: "https://orcid.org/0009-0005-3242-0098"
+  year: 2026
+  institution:
+    name: Zenodo
+  doi: "10.5281/zenodo.23923795"
+  url: "https://doi.org/10.5281/zenodo.23923795"

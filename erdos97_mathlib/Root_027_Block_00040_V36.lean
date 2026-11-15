@@ -1,0 +1,12 @@
+import Mask_Intersection_Checker_V33
+import Intersection_Certificate_Quote_V33
+set_option autoImplicit false
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+namespace T34Root027
+def b00040 : T33Checker.Certificate := e97IntersectionCertificate "/persistent/root_tokens_v33/Root_027_V33.tokens" at 1091617
+theorem b00040_ok : T33Checker.checkTree 11 T33Checker.suggestedHints [27,355] b00040 = true := by decide +kernel
+
+#print axioms T34Root027.b00040_ok
+#print axioms T34Root027.b00040
+end T34Root027

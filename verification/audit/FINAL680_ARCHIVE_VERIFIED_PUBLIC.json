@@ -1,0 +1,35 @@
+{
+  "phase": "FRESH_CLEAN_REPLAY_FULL680_WINDOWS_ARCHIVE_INDEPENDENTLY_VERIFIED",
+  "verified_utc": "2026-11-01T21:07:24.311677+00:00",
+  "run_id": "clean41-20261025",
+  "scope": "n=11 StrictCCW11",
+  "archive_bytes": 9984504611,
+  "archive_sha256": "19c8e183a40f298f721b20ae4cce640e0711c4b6adb35395c84de7ca5815c5ee",
+  "verified_modules": 680,
+  "canonical_roots": 210,
+  "clean_rebuild_complete": true,
+  "final_kernel_pass": true,
+  "final_axioms": {
+    "T34Closed.all_roots": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "T34Closed.no_counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "T34Closed.erdos97_n11_strict_ccw": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "archive_independently_rehashed": true,
+  "CRC_all_member_SHA_source_object_full_closure_verified": true,
+  "all_frozen_source_payload_verified": true,
+  "original_V38_objects_imported": false,
+  "evidence_archive_public_filename": "Erdos97_Proof_Evidence.zip",
+  "note": "Public derivative of the author-supplied final V59 audit. The source audit contained a private Windows path, omitted here. This file is not a newly executed audit."
+}

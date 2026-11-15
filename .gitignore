@@ -1,0 +1,12 @@
+.lake/
+.venv/
+__pycache__/
+*.pyc
+*.olean
+*.ilean
+*.olean.*
+*.tokens
+*.zip
+/audit_result.json
+.env
+.env.*

@@ -1,0 +1,60 @@
+{
+  "format_version": 1,
+  "release_title": "An End-to-End Lean Verification of the Eleven-Vertex Case of Erdős Problem 97",
+  "public_release_name": "Erdos97 n=11 research artifact",
+  "scope": "n=11 StrictCCW11",
+  "proof_theorem": "T34Closed.erdos97_n11_strict_ccw",
+  "evidence": {
+    "recommended_filename": "Erdos97_Proof_Evidence.zip",
+    "historical_filename": "Erdos97_Clean_Replay_FULL680_V59_20261102.zip",
+    "bytes": 9984504611,
+    "sha256": "19c8e183a40f298f721b20ae4cce640e0711c4b6adb35395c84de7ca5815c5ee",
+    "modules": 680,
+    "roots": 210,
+    "run_id": "clean41-20261025",
+    "archival_note": "Public filename and historical V59 filename denote the same immutable bytes. Local full-mode offline verification checks archive SHA-256, CRC/member SHA, frozen inputs, receipts and complete dependency closure; it does not invoke Lean.",
+    "validated_public_filename": "Erdos97_Proof_Evidence.zip",
+    "public_filename_verification_mode": "full"
+  },
+  "clean_input": {
+    "member": "CLEAN_INPUT_V41.zip",
+    "sha256": "04742600fff061370d8329b1a2e5536dfa54af2db497b12b9d9a431801ebbf6b"
+  },
+  "manuscript": {
+    "recommended_filename": "Erdos97_Manuscript_Source.zip",
+    "bytes": 165671,
+    "sha256": "71fc2469c9bd23390d5e0bdabea78c8cf3ac16ef8a1f2f916e98e99a708c443d",
+    "paper_name": "Erdos97_Paper.pdf",
+    "paper_bytes": 141453,
+    "paper_sha256": "23ded4d43605d31fe952ab706bd389bbfbd6ee56c66f2f4f5a562cb1bbec239e",
+    "source_pdf_identical_to_standalone": true,
+    "editorial_provenance": "Newly compiled from the author-supplied 3 November 2026 manuscript; tree-soundness reference corrected, AI/replay assistance and licensing described, release documentation synchronized. Mathematical statements and proof blocks retained except the corrected reference.",
+    "prior_supplied_manuscript_sha256": "550767e4bbe631834b480e6f2295f44df97ff4c509bd3a649ac916cbe3204055",
+    "revision_date": "2026-11-03",
+    "reserved_doi": "10.5281/zenodo.23923795"
+  },
+  "toolchain": {
+    "lean_commit": "c9afcddf514a6772bd4d649f7cfc04eff0b9f15e",
+    "mathlib_commit": "625d8914199bc567cca9b91f90e8e5afafa5ae51"
+  },
+  "audit_boundary": "This toolkit verifies reported clean replay and stored artifacts. It does not independently run Lean or certify mathematical novelty.",
+  "publication_status": "Published preprint and artifacts on Zenodo.",
+  "release_notes": "Actual reserved Zenodo DOI added to manuscript and public documentation. PDF, source ZIP, manifest, toolkit and checksums regenerated together. Proof archive and three Python audit scripts are unchanged from V63.",
+  "verification_toolkit_revision": "zenodo-reserved-doi-v64-2026-11-03",
+  "version": "1.0.0",
+  "release_revision": "zenodo-reserved-doi-v64-2026-11-03",
+  "author": {
+    "display_name": "Dang Khoa Nguyen",
+    "family_name": "Nguyen",
+    "given_names": "Dang Khoa",
+    "orcid": "0009-0005-3242-0098"
+  },
+  "licenses": {
+    "manuscript_documentation_data": "CC-BY-4.0",
+    "author_owned_program_source": "MIT",
+    "third_party_material": "Original upstream terms; see LICENSES.md."
+  },
+  "doi": "10.5281/zenodo.23923795",
+  "doi_status": "REGISTERED_AND_RESOLVING",
+  "record_url": "https://zenodo.org/records/23923795"
+}

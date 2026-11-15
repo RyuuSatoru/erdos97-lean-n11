@@ -1,0 +1,136 @@
+import Oriented_Pair000_V33
+import Oriented_Pair001_V33
+import Oriented_Pair002_V33
+import Oriented_Pair003_V33
+import Oriented_Pair004_V33
+import Oriented_Pair005_V33
+import Oriented_Pair006_V33
+import Oriented_Pair007_V33
+import Oriented_Pair008_V33
+import Oriented_Pair009_V33
+import Oriented_Pair010_V33
+import Oriented_Pair011_V33
+import Oriented_Pair012_V33
+import Oriented_Pair013_V33
+import Oriented_Pair014_V33
+import Oriented_Pair015_V33
+import Oriented_Pair016_V33
+import Oriented_Pair017_V33
+import Oriented_Pair018_V33
+import Oriented_Pair019_V33
+import Oriented_Pair020_V33
+import Oriented_Pair021_V33
+import Oriented_Pair022_V33
+import Oriented_Pair023_V33
+import Oriented_Pair024_V33
+import Oriented_Pair025_V33
+import Oriented_Pair026_V33
+import Oriented_Pair027_V33
+import Oriented_Pair028_V33
+import Oriented_Pair029_V33
+import Oriented_Pair030_V33
+import Oriented_Pair031_V33
+import Oriented_Pair032_V33
+import Oriented_Pair033_V33
+import Oriented_Pair034_V33
+import Oriented_Pair035_V33
+import Oriented_Pair036_V33
+import Oriented_Pair037_V33
+import Oriented_Pair038_V33
+import Oriented_Pair039_V33
+import Oriented_Pair040_V33
+import Oriented_Pair041_V33
+import Oriented_Pair042_V33
+import Oriented_Pair043_V33
+import Oriented_Pair044_V33
+import Oriented_Pair045_V33
+import Oriented_Pair046_V33
+import Oriented_Pair047_V33
+import Oriented_Pair048_V33
+import Oriented_Pair049_V33
+import Oriented_Pair050_V33
+import Oriented_Pair051_V33
+import Oriented_Pair052_V33
+import Oriented_Pair053_V33
+import Oriented_Pair054_V33
+import Oriented_Pair055_V33
+import Oriented_Pair056_V33
+import Oriented_Pair057_V33
+import Oriented_Pair058_V33
+import Oriented_Pair059_V33
+import Oriented_Pair060_V33
+import Oriented_Pair061_V33
+import Oriented_Pair062_V33
+import Oriented_Pair063_V33
+import Oriented_Pair064_V33
+import Oriented_Pair065_V33
+import Oriented_Pair066_V33
+import Oriented_Pair067_V33
+import Oriented_Pair068_V33
+import Oriented_Pair069_V33
+import Oriented_Pair070_V33
+import Oriented_Pair071_V33
+import Oriented_Pair072_V33
+import Oriented_Pair073_V33
+import Oriented_Pair074_V33
+import Oriented_Pair075_V33
+import Oriented_Pair076_V33
+import Oriented_Pair077_V33
+import Oriented_Pair078_V33
+import Oriented_Pair079_V33
+import Oriented_Pair080_V33
+import Oriented_Pair081_V33
+import Oriented_Pair082_V33
+import Oriented_Pair083_V33
+import Oriented_Pair084_V33
+import Oriented_Pair085_V33
+import Oriented_Pair086_V33
+import Oriented_Pair087_V33
+import Oriented_Pair088_V33
+import Oriented_Pair089_V33
+import Oriented_Pair090_V33
+import Oriented_Pair091_V33
+import Oriented_Pair092_V33
+import Oriented_Pair093_V33
+import Oriented_Pair094_V33
+import Oriented_Pair095_V33
+import Oriented_Pair096_V33
+import Oriented_Pair097_V33
+import Oriented_Pair098_V33
+import Oriented_Pair099_V33
+import Oriented_Pair100_V33
+import Oriented_Pair101_V33
+import Oriented_Pair102_V33
+import Oriented_Pair103_V33
+import Oriented_Pair104_V33
+import Oriented_Pair105_V33
+import Oriented_Pair106_V33
+import Oriented_Pair107_V33
+import Oriented_Pair108_V33
+import Oriented_Pair109_V33
+import Oriented_Pair110_V33
+import Oriented_Pair111_V33
+import Oriented_Pair112_V33
+import Oriented_Pair113_V33
+import Oriented_Pair114_V33
+import Oriented_Pair115_V33
+import Oriented_Pair116_V33
+import Oriented_Pair117_V33
+import Oriented_Pair118_V33
+import Oriented_Pair119_V33
+import Oriented_Pair120_V33
+set_option autoImplicit false
+set_option maxRecDepth 100000
+namespace T33CompleteTable
+theorem all_pairs : (List.range 121).all (fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) = true := T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 0) T33Oriented000.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 1) T33Oriented001.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 2) T33Oriented002.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 3) T33Oriented003.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 4) T33Oriented004.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 5) T33Oriented005.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 6) T33Oriented006.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 7) T33Oriented007.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 8) T33Oriented008.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 9) T33Oriented009.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 10) T33Oriented010.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 11) T33Oriented011.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 12) T33Oriented012.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 13) T33Oriented013.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 14) T33Oriented014.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 15) T33Oriented015.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 16) T33Oriented016.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 17) T33Oriented017.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 18) T33Oriented018.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 19) T33Oriented019.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 20) T33Oriented020.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 21) T33Oriented021.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 22) T33Oriented022.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 23) T33Oriented023.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 24) T33Oriented024.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 25) T33Oriented025.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 26) T33Oriented026.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 27) T33Oriented027.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 28) T33Oriented028.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 29) T33Oriented029.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 30) T33Oriented030.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 31) T33Oriented031.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 32) T33Oriented032.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 33) T33Oriented033.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 34) T33Oriented034.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 35) T33Oriented035.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 36) T33Oriented036.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 37) T33Oriented037.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 38) T33Oriented038.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 39) T33Oriented039.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 40) T33Oriented040.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 41) T33Oriented041.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 42) T33Oriented042.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 43) T33Oriented043.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 44) T33Oriented044.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 45) T33Oriented045.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 46) T33Oriented046.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 47) T33Oriented047.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 48) T33Oriented048.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 49) T33Oriented049.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 50) T33Oriented050.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 51) T33Oriented051.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 52) T33Oriented052.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 53) T33Oriented053.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 54) T33Oriented054.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 55) T33Oriented055.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 56) T33Oriented056.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 57) T33Oriented057.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 58) T33Oriented058.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 59) T33Oriented059.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 60) T33Oriented060.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 61) T33Oriented061.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 62) T33Oriented062.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 63) T33Oriented063.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 64) T33Oriented064.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 65) T33Oriented065.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 66) T33Oriented066.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 67) T33Oriented067.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 68) T33Oriented068.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 69) T33Oriented069.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 70) T33Oriented070.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 71) T33Oriented071.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 72) T33Oriented072.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 73) T33Oriented073.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 74) T33Oriented074.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 75) T33Oriented075.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 76) T33Oriented076.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 77) T33Oriented077.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 78) T33Oriented078.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 79) T33Oriented079.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 80) T33Oriented080.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 81) T33Oriented081.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 82) T33Oriented082.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 83) T33Oriented083.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 84) T33Oriented084.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 85) T33Oriented085.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 86) T33Oriented086.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 87) T33Oriented087.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 88) T33Oriented088.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 89) T33Oriented089.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 90) T33Oriented090.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 91) T33Oriented091.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 92) T33Oriented092.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 93) T33Oriented093.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 94) T33Oriented094.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 95) T33Oriented095.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 96) T33Oriented096.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 97) T33Oriented097.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 98) T33Oriented098.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 99) T33Oriented099.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 100) T33Oriented100.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 101) T33Oriented101.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 102) T33Oriented102.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 103) T33Oriented103.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 104) T33Oriented104.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 105) T33Oriented105.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 106) T33Oriented106.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 107) T33Oriented107.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 108) T33Oriented108.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 109) T33Oriented109.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 110) T33Oriented110.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 111) T33Oriented111.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 112) T33Oriented112.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 113) T33Oriented113.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 114) T33Oriented114.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 115) T33Oriented115.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 116) T33Oriented116.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 117) T33Oriented117.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 118) T33Oriented118.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 119) T33Oriented119.all_rows_bool (T33Table.all_cons (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)) (x := 120) T33Oriented120.all_rows_bool (T33Table.all_nil (p := fun i => (List.range 210).all (fun row => T33Table.validRow (i/11) (i%11) row)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+theorem certified : T33Table.Certified := by
+  apply T33Table.certified_of_rows
+  intro a ha b hb x hx
+  have hi : 11*a+b < 121 := by omega
+  have hq : (11*a+b)/11 = a := by omega
+  have hm : (11*a+b)%11 = b := by omega
+  have h := (List.all_eq_true.mp all_pairs) (11*a+b) (List.mem_range.mpr hi)
+  have hr := (List.all_eq_true.mp h) x (List.mem_range.mpr hx)
+  simpa only [hq,hm] using hr
+#print axioms T33CompleteTable.certified
+end T33CompleteTable
